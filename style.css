@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #2851A6 url("https://i.stack.imgur.com/spmUM.gif") left repeat-x;
+  background-size: auto;
+  background-position: bottom;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+}
